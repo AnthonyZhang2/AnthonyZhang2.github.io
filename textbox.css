@@ -1,4 +1,4 @@
-#tb1 {
+input#tb1 {
     height: 30px;
     width: 300px;
     background-color: #CEEEFA;
@@ -7,10 +7,10 @@
     color: #656768;
 }
 
-#tb1:focus{
+input:focus{
     border: 2px solid green;
 }
 
-#tb1:invalid{
+input:invalid{
     border: 2px solid red;
 }
