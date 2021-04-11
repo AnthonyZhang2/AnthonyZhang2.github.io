@@ -1,4 +1,4 @@
-input#tb1 {
+#tb1 {
     height: 30px;
     width: 300px;
     background-color: #CEEEFA;
@@ -7,10 +7,10 @@ input#tb1 {
     color: #656768;
 }
 
-input:focus{
+#tb1:focus{
     border: 2px solid green;
 }
 
-input invalid{
+#tb1:invalid{
     border: 2px solid red;
 }
