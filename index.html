@@ -3,13 +3,18 @@
 <head>
     <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" type ="text/css" href="textbox.css">
+    <script>
+        function textBoxValue() {
+            alert(document.frmOne.textBox1.value);
+        }
+    </script>
 </head>
 <body>
     <h1>Hello World</h1>
-    <FORM>
-        <INPUT ID="tb1" TYPE="Text" Value="Enter your first name">
+    <FORM Name="frmOne">
+        <INPUT ID="tb1" TYPE="Text" Value="Enter your first name" Name="textBox1">
         <P>
-        <INPUT TYPE="Submit" Value="Submit" ID="Button1">
+        <INPUT TYPE="Submit" Value="Submit" onClick="textBoxValue()">
     </FORM>
 </body>
 </html>
